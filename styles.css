@@ -49,3 +49,26 @@ discord {
     right: 5px;
 
 }
+
+
+#typing-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.blinking-dot {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
