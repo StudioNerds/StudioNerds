@@ -45,7 +45,7 @@ main {
 
 discord {
     position: fixed;
-    bottom: 50px;
+    top: 50px;
     right: 5px;
 
 }
