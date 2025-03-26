@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let typingSound = document.getElementById("typing-sound");
     let text = "This is a work in progress made by crimson demon";
     let index = 0;
+typingSound.volume = 0.05
 
     function typeText() {
         if (index < text.length) {
