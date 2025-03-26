@@ -21,9 +21,9 @@
 /* Logo that moves with scrolling */
 .logo {
     position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 100px;
+    top: 100px;
+    left: 100px;
+    width: 200px;
     height: auto;
     z-index: 10;
 }
